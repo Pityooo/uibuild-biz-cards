@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+a img {
+    border: none;
+}
+
+button,
+a {
+    cursor: pointer;
+    color: inherit;
+}
+
+textarea {
+    resize: none;
+}
+
+button,
+textarea,
+select {
+    appearance: none !important;
+    border-radius: 0;
+}
+
+/* end of css reset */
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 62px;
+    height: 100vh;
+    padding: 62px 0;
+    background-color: #ffeedf;
+}
+
+span {
+    display: block;
+}
+
+.cards {
+    width: 290px;
+    height: 416px;
+    padding: 27px;
+    background-color: #fff;
+}
+
+.name {
+    font-size: 48px;
+    font-family: 'EB Garamond', serif;;
+    color: #33793f;
+}
+
+.restaurant {
+    margin-top: 15px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #999;
+}
+
+.address {
+    font-size: 24px;
+    font-family: 'EB Garamond', serif;
+    color: #999;
+}
+
+.address span {
+    margin-top: 20px;
+}
